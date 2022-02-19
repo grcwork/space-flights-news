@@ -17,6 +17,9 @@ function NewsCard({ article }) {
           <Typography gutterBottom variant="h6" component="div" color="black">
             {new Date(article.publishedAt).toLocaleDateString()}
           </Typography>
+          <Typography variant="caption" display="block" gutterBottom>
+            {article.newsSite}
+          </Typography>
           <Typography variant="body2" color="text.secondary">
             {article.summary}
           </Typography>
