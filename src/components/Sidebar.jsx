@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 import LanguageIcon from "@mui/icons-material/Language";
 
 const countries = [
-  { name: "U.S", code: "us", searchTerm: "U.S" },
+  { name: "U.S.", code: "us", searchTerm: "U.S." },
   { name: "China", code: "cn", searchTerm: "China" },
   { name: "Russia", code: "ru", searchTerm: "Russia" },
   { name: "EU", code: "eu", searchTerm: "Europe" },

@@ -9,12 +9,7 @@ function NewsCard({ article }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <Link href={article.url} underline="none">
-        <CardMedia
-          component="img"
-          height="140"
-          image={article.imageUrl}
-          alt="green iguana"
-        />
+        <CardMedia component="img" height="140" image={article.imageUrl} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {article.title}
