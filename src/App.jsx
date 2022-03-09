@@ -48,10 +48,10 @@ function App() {
   return (
     <Container>
       <Grid container spacing={10}>
-        <Grid item item xs={2}>
+        <Grid item item xs={12} md={2}>
           <Sidebar countryHandler={countryHandler} />
         </Grid>
-        <Grid item item xs={10}>
+        <Grid item item xs={12} md={10}>
           <Box
             sx={{ display: "flex" }}
             justifyContent="center"
@@ -75,9 +75,7 @@ function App() {
               <CircularProgress />
             </Box>
           ) : (
-            <Box>
-              <NewsGrid articles={articles} />
-            </Box>
+            <NewsGrid articles={articles} />
           )}
           <Box
             sx={{ display: "flex" }}

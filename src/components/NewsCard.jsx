@@ -7,7 +7,7 @@ import { Link } from "@mui/material";
 
 function NewsCard({ article }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{}}>
       <Link href={article.url} underline="none">
         <CardMedia component="img" height="140" image={article.imageUrl} />
         <CardContent>

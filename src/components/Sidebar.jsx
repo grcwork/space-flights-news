@@ -20,7 +20,12 @@ const countries = [
 
 function Sidebar({ countryHandler }) {
   return (
-    <Box display="flex" flexDirection="column" justifyContent="center">
+    <Box
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
+    >
       <Typography variant="h5" component="div" gutterBottom fontWeight="bold">
         News about Space 🔭, Rockets 🚀 and more ☄️
       </Typography>

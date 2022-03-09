@@ -12,7 +12,7 @@ function NewsGrid({ articles }) {
       gridAutoRows={"1fr"}
     >
       {articles.map((article) => (
-        <Grid item xs={2} sm={4} md={4} key={article.id}>
+        <Grid item xs={4} sm={4} md={4} key={article.id}>
           <NewsCard article={article} />
         </Grid>
       ))}
